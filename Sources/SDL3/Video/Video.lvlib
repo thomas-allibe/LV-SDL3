@@ -14,4 +14,5 @@
 	</Item>
 	<Item Name="CreateWindow.vi" Type="VI" URL="../CreateWindow.vi"/>
 	<Item Name="DestroyWindow.vi" Type="VI" URL="../DestroyWindow.vi"/>
+	<Item Name="SetWindowSize.vi" Type="VI" URL="../SetWindowSize.vi"/>
 </Library>

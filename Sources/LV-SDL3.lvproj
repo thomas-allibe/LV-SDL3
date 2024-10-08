@@ -13,7 +13,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="HelloWorld.vi" Type="VI" URL="../SDL3/Error/HelloWorld.vi"/>
+			<Item Name="HelloWorld.vi" Type="VI" URL="../Examples/HelloWorld.vi"/>
 		</Item>
 		<Item Name="Lib" Type="Folder">
 			<Item Name="SDL3-32.dll" Type="Document" URL="../../Lib/SDL3-32.dll"/>
@@ -31,6 +31,7 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
+			<Item Name="SDL3-32.dll" Type="Document" URL="../../../_LV-SDL3/Lib/SDL3-32.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

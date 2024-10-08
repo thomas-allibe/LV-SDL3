@@ -23,6 +23,8 @@
 	<Item Name="DestroyRenderer.vi" Type="VI" URL="../DestroyRenderer.vi"/>
 	<Item Name="DestroyTexture.vi" Type="VI" URL="../DestroyTexture.vi"/>
 	<Item Name="RenderClear.vi" Type="VI" URL="../RenderClear.vi"/>
+	<Item Name="RenderFilleRect.vi" Type="VI" URL="../RenderFilleRect.vi"/>
+	<Item Name="RenderPresent.vi" Type="VI" URL="../RenderPresent.vi"/>
 	<Item Name="RenderRect.vi" Type="VI" URL="../RenderRect.vi"/>
 	<Item Name="RenderTexture.vi" Type="VI" URL="../RenderTexture.vi"/>
 	<Item Name="SetRenderDrawColor.vi" Type="VI" URL="../SetRenderDrawColor.vi"/>
