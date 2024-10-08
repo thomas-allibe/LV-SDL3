@@ -19,7 +19,7 @@
 			<Item Name="SDL3-32.dll" Type="Document" URL="../../Lib/SDL3-32.dll"/>
 		</Item>
 		<Item Name="Tools" Type="Folder">
-			<Item Name="EnumToEnum.vi" Type="VI" URL="../Tools/EnumToEnum.vi"/>
+			<Item Name="EnumToEnumAndLookup.vi" Type="VI" URL="../Tools/EnumToEnumAndLookup.vi"/>
 			<Item Name="FlagToRing.vi" Type="VI" URL="../Tools/FlagToRing.vi"/>
 		</Item>
 		<Item Name="SDL3.lvlib" Type="Library" URL="../SDL3/SDL3.lvlib"/>
