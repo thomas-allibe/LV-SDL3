@@ -10,7 +10,9 @@
 
 </Property>
 	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="DisplayID--integer.ctl" Type="VI" URL="../DisplayID--integer.ctl"/>
 		<Item Name="WindowFlags--ring.ctl" Type="VI" URL="../WindowFlags--ring.ctl"/>
+		<Item Name="WindowID--integer.ctl" Type="VI" URL="../WindowID--integer.ctl"/>
 	</Item>
 	<Item Name="CreateWindow.vi" Type="VI" URL="../CreateWindow.vi"/>
 	<Item Name="DestroyWindow.vi" Type="VI" URL="../DestroyWindow.vi"/>

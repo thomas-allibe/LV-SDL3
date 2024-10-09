@@ -10,6 +10,7 @@
 	<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
 	<Item Name="Events.lvlib" Type="Library" URL="../Events/Events.lvlib"/>
 	<Item Name="Init.lvlib" Type="Library" URL="../Init/Init.lvlib"/>
+	<Item Name="Keyboard.lvlib" Type="Library" URL="../Keyboard/Keyboard.lvlib"/>
 	<Item Name="Render.lvlib" Type="Library" URL="../Render/Render.lvlib"/>
 	<Item Name="Video.lvlib" Type="Library" URL="../Video/Video.lvlib"/>
 </Library>

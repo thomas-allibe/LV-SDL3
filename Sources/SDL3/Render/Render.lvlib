@@ -13,8 +13,20 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="PixelFormatEnumLookupTable.vi" Type="VI" URL="../PixelFormatEnumLookupTable.vi"/>
 	</Item>
+	<Item Name="Render Geometry" Type="Folder">
+		<Item Name="RenderFillRect.vi" Type="VI" URL="../RenderFillRect.vi"/>
+		<Item Name="RenderFillRects.vi" Type="VI" URL="../RenderFillRects.vi"/>
+		<Item Name="RenderLine.vi" Type="VI" URL="../RenderLine.vi"/>
+		<Item Name="RenderLines.vi" Type="VI" URL="../RenderLines.vi"/>
+		<Item Name="RenderPoint.vi" Type="VI" URL="../RenderPoint.vi"/>
+		<Item Name="RenderPoints.vi" Type="VI" URL="../RenderPoints.vi"/>
+		<Item Name="RenderRect.vi" Type="VI" URL="../RenderRect.vi"/>
+		<Item Name="RenderRects.vi" Type="VI" URL="../RenderRects.vi"/>
+	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="FPoint--cluster.ctl" Type="VI" URL="../FPoint--cluster.ctl"/>
+		<Item Name="FRect--cluster.ctl" Type="VI" URL="../FRect--cluster.ctl"/>
 		<Item Name="PixelFormat--enum.ctl" Type="VI" URL="../PixelFormat--enum.ctl"/>
 		<Item Name="TextureAccess-enum.ctl" Type="VI" URL="../TextureAccess-enum.ctl"/>
 	</Item>
@@ -23,9 +35,7 @@
 	<Item Name="DestroyRenderer.vi" Type="VI" URL="../DestroyRenderer.vi"/>
 	<Item Name="DestroyTexture.vi" Type="VI" URL="../DestroyTexture.vi"/>
 	<Item Name="RenderClear.vi" Type="VI" URL="../RenderClear.vi"/>
-	<Item Name="RenderFilleRect.vi" Type="VI" URL="../RenderFilleRect.vi"/>
 	<Item Name="RenderPresent.vi" Type="VI" URL="../RenderPresent.vi"/>
-	<Item Name="RenderRect.vi" Type="VI" URL="../RenderRect.vi"/>
 	<Item Name="RenderTexture.vi" Type="VI" URL="../RenderTexture.vi"/>
 	<Item Name="SetRenderDrawColor.vi" Type="VI" URL="../SetRenderDrawColor.vi"/>
 	<Item Name="SetRenderTarget.vi" Type="VI" URL="../SetRenderTarget.vi"/>
