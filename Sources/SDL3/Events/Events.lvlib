@@ -14,6 +14,8 @@
 		<Item Name="DisplayEvent--cluster.ctl" Type="VI" URL="../DisplayEvent--cluster.ctl"/>
 		<Item Name="Event--cluster.ctl" Type="VI" URL="../Event--cluster.ctl"/>
 		<Item Name="KeyboardDeviceEvent--cluster.ctl" Type="VI" URL="../KeyboardDeviceEvent--cluster.ctl"/>
+		<Item Name="KeyboardEvent--cluster.ctl" Type="VI" URL="../KeyboardEvent--cluster.ctl"/>
+		<Item Name="Scancode--integer.ctl" Type="VI" URL="../Scancode--integer.ctl"/>
 		<Item Name="WindowEvent--cluster.ctl" Type="VI" URL="../WindowEvent--cluster.ctl"/>
 	</Item>
 	<Item Name="PollEvent.vi" Type="VI" URL="../PollEvent.vi"/>

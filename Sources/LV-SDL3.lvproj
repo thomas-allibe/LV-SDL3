@@ -20,8 +20,10 @@
 		</Item>
 		<Item Name="Tools" Type="Folder">
 			<Item Name="EnumToEnumAndLookup.vi" Type="VI" URL="../Tools/EnumToEnumAndLookup.vi"/>
-			<Item Name="FlagToRing.vi" Type="VI" URL="../Tools/FlagToRing.vi"/>
+			<Item Name="FlagToRing-Keycode.vi" Type="VI" URL="../Tools/FlagToRing-Keycode.vi"/>
+			<Item Name="FlagToRing-Window.vi" Type="VI" URL="../Tools/FlagToRing-Window.vi"/>
 		</Item>
+		<Item Name="FlagToRing-Keymod.vi" Type="VI" URL="../Tools/FlagToRing-Keymod.vi"/>
 		<Item Name="SDL3.lvlib" Type="Library" URL="../SDL3/SDL3.lvlib"/>
 		<Item Name="Untitled 3.vi" Type="VI" URL="../Untitled 3.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
