@@ -13,9 +13,27 @@
 		<Item Name="CommonEvent--cluster.ctl" Type="VI" URL="../CommonEvent--cluster.ctl"/>
 		<Item Name="DisplayEvent--cluster.ctl" Type="VI" URL="../DisplayEvent--cluster.ctl"/>
 		<Item Name="Event--cluster.ctl" Type="VI" URL="../Event--cluster.ctl"/>
+		<Item Name="GamepadAxisEvent--cluster.ctl" Type="VI" URL="../GamepadAxisEvent--cluster.ctl"/>
+		<Item Name="GamepadButtonEvent--cluster.ctl" Type="VI" URL="../GamepadButtonEvent--cluster.ctl"/>
+		<Item Name="GamepadDeviceEvent--cluster.ctl" Type="VI" URL="../GamepadDeviceEvent--cluster.ctl"/>
+		<Item Name="GamepadSensorEvent--cluster.ctl" Type="VI" URL="../GamepadSensorEvent--cluster.ctl"/>
+		<Item Name="GamepadTouchpadEvent--cluster.ctl" Type="VI" URL="../GamepadTouchpadEvent--cluster.ctl"/>
+		<Item Name="JoyAxisEvent--cluster.ctl" Type="VI" URL="../JoyAxisEvent--cluster.ctl"/>
+		<Item Name="JoyBallEvent--cluster.ctl" Type="VI" URL="../JoyBallEvent--cluster.ctl"/>
+		<Item Name="JoyBatteryEvent--cluster.ctl" Type="VI" URL="../JoyBatteryEvent--cluster.ctl"/>
+		<Item Name="JoyButtonEvent--cluster.ctl" Type="VI" URL="../JoyButtonEvent--cluster.ctl"/>
+		<Item Name="JoyDeviceEvent--cluster.ctl" Type="VI" URL="../JoyDeviceEvent--cluster.ctl"/>
+		<Item Name="JoyHatEvent--cluster.ctl" Type="VI" URL="../JoyHatEvent--cluster.ctl"/>
 		<Item Name="KeyboardDeviceEvent--cluster.ctl" Type="VI" URL="../KeyboardDeviceEvent--cluster.ctl"/>
 		<Item Name="KeyboardEvent--cluster.ctl" Type="VI" URL="../KeyboardEvent--cluster.ctl"/>
+		<Item Name="MouseButtonEvent--cluster.ctl" Type="VI" URL="../MouseButtonEvent--cluster.ctl"/>
+		<Item Name="MouseDeviceEvent--cluster.ctl" Type="VI" URL="../MouseDeviceEvent--cluster.ctl"/>
+		<Item Name="MouseMotionEvent--cluster.ctl" Type="VI" URL="../MouseMotionEvent--cluster.ctl"/>
+		<Item Name="MouseWheelEvent--cluster.ctl" Type="VI" URL="../MouseWheelEvent--cluster.ctl"/>
 		<Item Name="Scancode--integer.ctl" Type="VI" URL="../Scancode--integer.ctl"/>
+		<Item Name="TextEditingCandidatesEvent--cluster.ctl" Type="VI" URL="../TextEditingCandidatesEvent--cluster.ctl"/>
+		<Item Name="TextEditingEvent--cluster.ctl" Type="VI" URL="../TextEditingEvent--cluster.ctl"/>
+		<Item Name="TextInputEvent--cluster.ctl" Type="VI" URL="../TextInputEvent--cluster.ctl"/>
 		<Item Name="WindowEvent--cluster.ctl" Type="VI" URL="../WindowEvent--cluster.ctl"/>
 	</Item>
 	<Item Name="PollEvent.vi" Type="VI" URL="../PollEvent.vi"/>
