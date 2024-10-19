@@ -31,6 +31,9 @@
 		<Item Name="Sensor.lvlib" Type="Library" URL="../Sensor/Sensor.lvlib"/>
 		<Item Name="Touch.lvlib" Type="Library" URL="../Touch/Touch.lvlib"/>
 	</Item>
+	<Item Name="Time" Type="Folder">
+		<Item Name="Timer.lvlib" Type="Library" URL="../Timer/Timer.lvlib"/>
+	</Item>
 	<Item Name="Video" Type="Folder">
 		<Item Name="Camera.lvlib" Type="Library" URL="../Camera/Camera.lvlib"/>
 		<Item Name="Render.lvlib" Type="Library" URL="../Render/Render.lvlib"/>
