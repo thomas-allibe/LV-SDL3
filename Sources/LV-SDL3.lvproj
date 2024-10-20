@@ -14,6 +14,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
+			<Item Name="Events.vi" Type="VI" URL="../Examples/Events.vi"/>
 			<Item Name="HelloWorld.vi" Type="VI" URL="../Examples/HelloWorld.vi"/>
 		</Item>
 		<Item Name="Lib" Type="Folder">

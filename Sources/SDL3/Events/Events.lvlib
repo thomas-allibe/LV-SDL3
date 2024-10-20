@@ -51,8 +51,14 @@
 	</Item>
 	<Item Name="Unflatten" Type="Folder">
 		<Item Name="Unflatten-EventType.vi" Type="VI" URL="../Unflatten-EventType.vi"/>
-		<Item Name="Unflatten-MouseMotionEvent.vi" Type="VI" URL="../Unflatten-MouseMotionEvent.vi"/>
+		<Item Name="Unflatten-KeyboardDeviceEventData.vi" Type="VI" URL="../Unflatten-KeyboardDeviceEventData.vi"/>
+		<Item Name="Unflatten-KeyboardEventData.vi" Type="VI" URL="../Unflatten-KeyboardEventData.vi"/>
+		<Item Name="Unflatten-MouseButtonEventData.vi" Type="VI" URL="../Unflatten-MouseButtonEventData.vi"/>
+		<Item Name="Unflatten-MouseDeviceEventData.vi" Type="VI" URL="../Unflatten-MouseDeviceEventData.vi"/>
+		<Item Name="Unflatten-MouseMotionEventData.vi" Type="VI" URL="../Unflatten-MouseMotionEventData.vi"/>
+		<Item Name="Unflatten-MouseWheelEventData.vi" Type="VI" URL="../Unflatten-MouseWheelEventData.vi"/>
 	</Item>
 	<Item Name="PollEvent.vi" Type="VI" URL="../PollEvent.vi"/>
 	<Item Name="ShouldClose.vi" Type="VI" URL="../ShouldClose.vi"/>
+	<Item Name="Unflatten-QuitEventData.vi" Type="VI" URL="../Unflatten-QuitEventData.vi"/>
 </Library>
