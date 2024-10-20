@@ -16,7 +16,7 @@
 		<Item Name="CommonEvent--cluster.ctl" Type="VI" URL="../CommonEvent--cluster.ctl"/>
 		<Item Name="DisplayEvent--cluster.ctl" Type="VI" URL="../DisplayEvent--cluster.ctl"/>
 		<Item Name="DropEvent--cluster.ctl" Type="VI" URL="../DropEvent--cluster.ctl"/>
-		<Item Name="Event--cluster.ctl" Type="VI" URL="../Event--cluster.ctl"/>
+		<Item Name="EventType--enum.ctl" Type="VI" URL="../EventType--enum.ctl"/>
 		<Item Name="GamepadAxisEvent--cluster.ctl" Type="VI" URL="../GamepadAxisEvent--cluster.ctl"/>
 		<Item Name="GamepadButtonEvent--cluster.ctl" Type="VI" URL="../GamepadButtonEvent--cluster.ctl"/>
 		<Item Name="GamepadDeviceEvent--cluster.ctl" Type="VI" URL="../GamepadDeviceEvent--cluster.ctl"/>
@@ -48,6 +48,10 @@
 		<Item Name="TouchFingerEvent--cluster.ctl" Type="VI" URL="../TouchFingerEvent--cluster.ctl"/>
 		<Item Name="UserEvent--cluster.ctl" Type="VI" URL="../UserEvent--cluster.ctl"/>
 		<Item Name="WindowEvent--cluster.ctl" Type="VI" URL="../WindowEvent--cluster.ctl"/>
+	</Item>
+	<Item Name="Unflatten" Type="Folder">
+		<Item Name="Unflatten-EventType.vi" Type="VI" URL="../Unflatten-EventType.vi"/>
+		<Item Name="Unflatten-MouseMotionEvent.vi" Type="VI" URL="../Unflatten-MouseMotionEvent.vi"/>
 	</Item>
 	<Item Name="PollEvent.vi" Type="VI" URL="../PollEvent.vi"/>
 	<Item Name="ShouldClose.vi" Type="VI" URL="../ShouldClose.vi"/>

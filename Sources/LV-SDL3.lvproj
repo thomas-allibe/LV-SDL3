@@ -25,6 +25,7 @@
 			<Item Name="toto.vi" Type="VI" URL="../Test/toto.vi"/>
 		</Item>
 		<Item Name="Tools" Type="Folder">
+			<Item Name="CreateEventTypeEnum.vi" Type="VI" URL="../Tools/CreateEventTypeEnum.vi"/>
 			<Item Name="EnumToEnumAndLookup.vi" Type="VI" URL="../Tools/EnumToEnumAndLookup.vi"/>
 			<Item Name="FlagToRing-Keycode.vi" Type="VI" URL="../Tools/FlagToRing-Keycode.vi"/>
 			<Item Name="FlagToRing-Keymod.vi" Type="VI" URL="../Tools/FlagToRing-Keymod.vi"/>
