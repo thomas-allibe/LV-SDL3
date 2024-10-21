@@ -21,11 +21,12 @@
 			<Item Name="SDL3-32.dll" Type="Document" URL="../../Lib/SDL3-32.dll"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
-			<Item Name="CreateCluster.vi" Type="VI" URL="../Test/CreateCluster.vi"/>
 			<Item Name="TestEvent.vi" Type="VI" URL="../Test/TestEvent.vi"/>
+			<Item Name="TestSurface.vi" Type="VI" URL="../Test/TestSurface.vi"/>
 			<Item Name="toto.vi" Type="VI" URL="../Test/toto.vi"/>
 		</Item>
 		<Item Name="Tools" Type="Folder">
+			<Item Name="CreateCluster.vi" Type="VI" URL="../Tools/CreateCluster.vi"/>
 			<Item Name="CreateEventTypeEnum.vi" Type="VI" URL="../Tools/CreateEventTypeEnum.vi"/>
 			<Item Name="EnumToEnumAndLookup.vi" Type="VI" URL="../Tools/EnumToEnumAndLookup.vi"/>
 			<Item Name="FlagToRing-Keycode.vi" Type="VI" URL="../Tools/FlagToRing-Keycode.vi"/>

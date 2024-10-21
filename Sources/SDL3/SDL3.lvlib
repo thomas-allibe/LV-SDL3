@@ -35,8 +35,13 @@
 		<Item Name="Timer.lvlib" Type="Library" URL="../Timer/Timer.lvlib"/>
 	</Item>
 	<Item Name="Video" Type="Folder">
+		<Item Name="Blendmode.lvlib" Type="Library" URL="../Blendmode/Blendmode.lvlib"/>
 		<Item Name="Camera.lvlib" Type="Library" URL="../Camera/Camera.lvlib"/>
+		<Item Name="Clipboard.lvlib" Type="Library" URL="../Clipboard/Clipboard.lvlib"/>
+		<Item Name="Pixels.lvlib" Type="Library" URL="../Pixels/Pixels.lvlib"/>
+		<Item Name="Rect.lvlib" Type="Library" URL="../Rect/Rect.lvlib"/>
 		<Item Name="Render.lvlib" Type="Library" URL="../Render/Render.lvlib"/>
+		<Item Name="Surface.lvlib" Type="Library" URL="../Surface/Surface.lvlib"/>
 		<Item Name="Video.lvlib" Type="Library" URL="../Video/Video.lvlib"/>
 	</Item>
 </Library>
