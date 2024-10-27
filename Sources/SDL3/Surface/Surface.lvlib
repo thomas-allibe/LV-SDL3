@@ -18,9 +18,16 @@ https://github.com/libsdl-org/SDL_image</Property>
 
 </Property>
 	<Item Name="LV Utilities" Type="Folder">
+		<Item Name="GetSurfaceInfo.vi" Type="VI" URL="../GetSurfaceInfo.vi"/>
 		<Item Name="GetSurfacePixels.vi" Type="VI" URL="../GetSurfacePixels.vi"/>
+	</Item>
+	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="SurfaceFlags--ring.ctl" Type="VI" URL="../SurfaceFlags--ring.ctl"/>
 	</Item>
 	<Item Name="CreateSurface.vi" Type="VI" URL="../CreateSurface.vi"/>
 	<Item Name="DestroySurface.vi" Type="VI" URL="../../Render/DestroySurface.vi"/>
 	<Item Name="DuplicateSurface.vi" Type="VI" URL="../DuplicateSurface.vi"/>
+	<Item Name="LockSurface.vi" Type="VI" URL="../LockSurface.vi"/>
+	<Item Name="MustLock.vi" Type="VI" URL="../MustLock.vi"/>
+	<Item Name="UnlockSurface.vi" Type="VI" URL="../UnlockSurface.vi"/>
 </Library>

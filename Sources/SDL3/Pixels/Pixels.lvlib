@@ -12,7 +12,8 @@
 
 </Property>
 	<Item Name="LV Utilities" Type="Folder">
-		<Item Name="PixelFormatEnumLookupTable.vi" Type="VI" URL="../PixelFormatEnumLookupTable.vi"/>
+		<Item Name="PixelFormatEnumToU32.vi" Type="VI" URL="../PixelFormatEnumToU32.vi"/>
+		<Item Name="U32ToPixelFormatEnum.vi" Type="VI" URL="../U32ToPixelFormatEnum.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="PixelFormat--enum.ctl" Type="VI" URL="../PixelFormat--enum.ctl"/>
