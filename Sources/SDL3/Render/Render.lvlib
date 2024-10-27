@@ -38,8 +38,6 @@ These functions must be called from the main thread. See this bug for details: h
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="FPoint--cluster.ctl" Type="VI" URL="../FPoint--cluster.ctl"/>
-		<Item Name="FRect--cluster.ctl" Type="VI" URL="../FRect--cluster.ctl"/>
 		<Item Name="TextureAccess-enum.ctl" Type="VI" URL="../TextureAccess-enum.ctl"/>
 	</Item>
 	<Item Name="CreateRenderer.vi" Type="VI" URL="../CreateRenderer.vi"/>
@@ -48,6 +46,7 @@ These functions must be called from the main thread. See this bug for details: h
 	<Item Name="DestroyTexture.vi" Type="VI" URL="../DestroyTexture.vi"/>
 	<Item Name="RenderClear.vi" Type="VI" URL="../RenderClear.vi"/>
 	<Item Name="RenderPresent.vi" Type="VI" URL="../RenderPresent.vi"/>
+	<Item Name="RenderReadPixels.vi" Type="VI" URL="../RenderReadPixels.vi"/>
 	<Item Name="RenderTexture.vi" Type="VI" URL="../RenderTexture.vi"/>
 	<Item Name="SetRenderDrawColor.vi" Type="VI" URL="../SetRenderDrawColor.vi"/>
 	<Item Name="SetRenderTarget.vi" Type="VI" URL="../SetRenderTarget.vi"/>
