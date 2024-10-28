@@ -17,4 +17,14 @@
 		<Item Name="Point--cluster.ctl" Type="VI" URL="../Point--cluster.ctl"/>
 		<Item Name="Rect--cluster.ctl" Type="VI" URL="../Rect--cluster.ctl"/>
 	</Item>
+	<Item Name="GetRectAndLineIntersection.vi" Type="VI" URL="../GetRectAndLineIntersection.vi"/>
+	<Item Name="GetRectAndLineIntersectionFloat.vi" Type="VI" URL="../GetRectAndLineIntersectionFloat.vi"/>
+	<Item Name="GetRectEnclosingPoints.vi" Type="VI" URL="../GetRectEnclosingPoints.vi"/>
+	<Item Name="GetRectEnclosingPointsFloat.vi" Type="VI" URL="../GetRectEnclosingPointsFloat.vi"/>
+	<Item Name="GetRectIntersection.vi" Type="VI" URL="../GetRectIntersection.vi"/>
+	<Item Name="GetRectIntersectionFloat.vi" Type="VI" URL="../GetRectIntersectionFloat.vi"/>
+	<Item Name="GetRectUnion.vi" Type="VI" URL="../GetRectUnion.vi"/>
+	<Item Name="GetRectUnionFloat.vi" Type="VI" URL="../GetRectUnionFloat.vi"/>
+	<Item Name="HasRectIntersection.vi" Type="VI" URL="../HasRectIntersection.vi"/>
+	<Item Name="HasRectIntersectionFloat.vi" Type="VI" URL="../HasRectIntersectionFloat.vi"/>
 </Library>
