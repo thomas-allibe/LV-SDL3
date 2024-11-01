@@ -27,4 +27,12 @@
 	<Item Name="GetRectUnionFloat.vi" Type="VI" URL="../GetRectUnionFloat.vi"/>
 	<Item Name="HasRectIntersection.vi" Type="VI" URL="../HasRectIntersection.vi"/>
 	<Item Name="HasRectIntersectionFloat.vi" Type="VI" URL="../HasRectIntersectionFloat.vi"/>
+	<Item Name="PointInRect-lv.vi" Type="VI" URL="../PointInRect-lv.vi"/>
+	<Item Name="PointInRectFloat-lv.vi" Type="VI" URL="../PointInRectFloat-lv.vi"/>
+	<Item Name="RectEmpty-lv.vi" Type="VI" URL="../RectEmpty-lv.vi"/>
+	<Item Name="RectEmptyFloat-lv.vi" Type="VI" URL="../RectEmptyFloat-lv.vi"/>
+	<Item Name="RectsEqual-lv.vi" Type="VI" URL="../RectsEqual-lv.vi"/>
+	<Item Name="RectsEqualEpsilon-lv.vi" Type="VI" URL="../RectsEqualEpsilon-lv.vi"/>
+	<Item Name="RectsEqualFloat-lv.vi" Type="VI" URL="../RectsEqualFloat-lv.vi"/>
+	<Item Name="RectToFRect-lv.vi" Type="VI" URL="../RectToFRect-lv.vi"/>
 </Library>

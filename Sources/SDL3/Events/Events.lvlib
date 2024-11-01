@@ -57,8 +57,8 @@
 		<Item Name="Unflatten-MouseDeviceEventData.vi" Type="VI" URL="../Unflatten-MouseDeviceEventData.vi"/>
 		<Item Name="Unflatten-MouseMotionEventData.vi" Type="VI" URL="../Unflatten-MouseMotionEventData.vi"/>
 		<Item Name="Unflatten-MouseWheelEventData.vi" Type="VI" URL="../Unflatten-MouseWheelEventData.vi"/>
+		<Item Name="Unflatten-QuitEventData.vi" Type="VI" URL="../Unflatten-QuitEventData.vi"/>
 	</Item>
 	<Item Name="PollEvent.vi" Type="VI" URL="../PollEvent.vi"/>
 	<Item Name="ShouldClose.vi" Type="VI" URL="../ShouldClose.vi"/>
-	<Item Name="Unflatten-QuitEventData.vi" Type="VI" URL="../Unflatten-QuitEventData.vi"/>
 </Library>
