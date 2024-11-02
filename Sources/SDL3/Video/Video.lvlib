@@ -34,6 +34,7 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 	<Item Name="GetWindowDisplayScale.vi" Type="VI" URL="../GetWindowDisplayScale.vi"/>
 	<Item Name="GetWindowFlags.vi" Type="VI" URL="../GetWindowFlags.vi"/>
 	<Item Name="GetWindowFromID.vi" Type="VI" URL="../GetWindowFromID.vi"/>
+	<Item Name="GetWindowFullscreenMode.vi" Type="VI" URL="../GetWindowFullscreenMode.vi"/>
 	<Item Name="GetWindowParent.vi" Type="VI" URL="../GetWindowParent.vi"/>
 	<Item Name="ScreenSaverEnabled.vi" Type="VI" URL="../ScreenSaverEnabled.vi"/>
 	<Item Name="SetWindowSize.vi" Type="VI" URL="../SetWindowSize.vi"/>
