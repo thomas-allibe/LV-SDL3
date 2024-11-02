@@ -20,7 +20,12 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 		<Item Name="WindowFlags--ring.ctl" Type="VI" URL="../WindowFlags--ring.ctl"/>
 		<Item Name="WindowID--integer.ctl" Type="VI" URL="../WindowID--integer.ctl"/>
 	</Item>
+	<Item Name="CreatePopupWindow.vi" Type="VI" URL="../CreatePopupWindow.vi"/>
 	<Item Name="CreateWindow.vi" Type="VI" URL="../CreateWindow.vi"/>
 	<Item Name="DestroyWindow.vi" Type="VI" URL="../DestroyWindow.vi"/>
+	<Item Name="DisableScreenSaver.vi" Type="VI" URL="../DisableScreenSaver.vi"/>
+	<Item Name="EnableScreenSaver.vi" Type="VI" URL="../EnableScreenSaver.vi"/>
+	<Item Name="GetWindowParent.vi" Type="VI" URL="../GetWindowParent.vi"/>
+	<Item Name="ScreenSaverEnabled.vi" Type="VI" URL="../ScreenSaverEnabled.vi"/>
 	<Item Name="SetWindowSize.vi" Type="VI" URL="../SetWindowSize.vi"/>
 </Library>

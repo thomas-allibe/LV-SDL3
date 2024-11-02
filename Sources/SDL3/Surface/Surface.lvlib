@@ -20,6 +20,7 @@ https://github.com/libsdl-org/SDL_image</Property>
 	<Item Name="LV Utilities" Type="Folder">
 		<Item Name="GetSurfaceInfo.vi" Type="VI" URL="../GetSurfaceInfo.vi"/>
 		<Item Name="GetSurfacePixels.vi" Type="VI" URL="../GetSurfacePixels.vi"/>
+		<Item Name="MustLock.vi" Type="VI" URL="../MustLock.vi"/>
 		<Item Name="SetSurfacePixels.vi" Type="VI" URL="../SetSurfacePixels.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
@@ -33,6 +34,5 @@ https://github.com/libsdl-org/SDL_image</Property>
 	<Item Name="FillSurfaceRects.vi" Type="VI" URL="../FillSurfaceRects.vi"/>
 	<Item Name="LoadBMP.vi" Type="VI" URL="../LoadBMP.vi"/>
 	<Item Name="LockSurface.vi" Type="VI" URL="../LockSurface.vi"/>
-	<Item Name="MustLock.vi" Type="VI" URL="../MustLock.vi"/>
 	<Item Name="UnlockSurface.vi" Type="VI" URL="../UnlockSurface.vi"/>
 </Library>
