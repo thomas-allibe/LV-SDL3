@@ -17,6 +17,8 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 </Property>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="DisplayID--integer.ctl" Type="VI" URL="../DisplayID--integer.ctl"/>
+		<Item Name="FlashOperation--enum.ctl" Type="VI" URL="../FlashOperation--enum.ctl"/>
+		<Item Name="SystemTheme--enum.ctl" Type="VI" URL="../SystemTheme--enum.ctl"/>
 		<Item Name="WindowFlags--ring.ctl" Type="VI" URL="../WindowFlags--ring.ctl"/>
 		<Item Name="WindowID--integer.ctl" Type="VI" URL="../WindowID--integer.ctl"/>
 	</Item>
@@ -25,6 +27,13 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 	<Item Name="DestroyWindow.vi" Type="VI" URL="../DestroyWindow.vi"/>
 	<Item Name="DisableScreenSaver.vi" Type="VI" URL="../DisableScreenSaver.vi"/>
 	<Item Name="EnableScreenSaver.vi" Type="VI" URL="../EnableScreenSaver.vi"/>
+	<Item Name="FlashWindow.vi" Type="VI" URL="../FlashWindow.vi"/>
+	<Item Name="GetSystemTheme.vi" Type="VI" URL="../GetSystemTheme.vi"/>
+	<Item Name="GetWindowAspectRatio.vi" Type="VI" URL="../GetWindowAspectRatio.vi"/>
+	<Item Name="GetWindowBordersSize.vi" Type="VI" URL="../GetWindowBordersSize.vi"/>
+	<Item Name="GetWindowDisplayScale.vi" Type="VI" URL="../GetWindowDisplayScale.vi"/>
+	<Item Name="GetWindowFlags.vi" Type="VI" URL="../GetWindowFlags.vi"/>
+	<Item Name="GetWindowFromID.vi" Type="VI" URL="../GetWindowFromID.vi"/>
 	<Item Name="GetWindowParent.vi" Type="VI" URL="../GetWindowParent.vi"/>
 	<Item Name="ScreenSaverEnabled.vi" Type="VI" URL="../ScreenSaverEnabled.vi"/>
 	<Item Name="SetWindowSize.vi" Type="VI" URL="../SetWindowSize.vi"/>
