@@ -17,6 +17,7 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 </Property>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="DisplayID--integer.ctl" Type="VI" URL="../DisplayID--integer.ctl"/>
+		<Item Name="DisplayOrientation--enum.ctl" Type="VI" URL="../DisplayOrientation--enum.ctl"/>
 		<Item Name="FlashOperation--enum.ctl" Type="VI" URL="../FlashOperation--enum.ctl"/>
 		<Item Name="SystemTheme--enum.ctl" Type="VI" URL="../SystemTheme--enum.ctl"/>
 		<Item Name="WindowFlags--ring.ctl" Type="VI" URL="../WindowFlags--ring.ctl"/>
@@ -28,22 +29,40 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 	<Item Name="DisableScreenSaver.vi" Type="VI" URL="../DisableScreenSaver.vi"/>
 	<Item Name="EnableScreenSaver.vi" Type="VI" URL="../EnableScreenSaver.vi"/>
 	<Item Name="FlashWindow.vi" Type="VI" URL="../FlashWindow.vi"/>
+	<Item Name="GetCurrentDisplayOrientation.vi" Type="VI" URL="../GetCurrentDisplayOrientation.vi"/>
+	<Item Name="GetCurrentVideoDriver.vi" Type="VI" URL="../GetCurrentVideoDriver.vi"/>
 	<Item Name="GetDisplayBounds.vi" Type="VI" URL="../GetDisplayBounds.vi"/>
+	<Item Name="GetDisplayContentScale.vi" Type="VI" URL="../GetDisplayContentScale.vi"/>
+	<Item Name="GetDisplayForPoint.vi" Type="VI" URL="../GetDisplayForPoint.vi"/>
+	<Item Name="GetDisplayForRect.vi" Type="VI" URL="../GetDisplayForRect.vi"/>
+	<Item Name="GetDisplayForWindow.vi" Type="VI" URL="../GetDisplayForWindow.vi"/>
+	<Item Name="GetDisplayName.vi" Type="VI" URL="../GetDisplayName.vi"/>
 	<Item Name="GetDisplayProperties.vi" Type="VI" URL="../GetDisplayProperties.vi"/>
+	<Item Name="GetDisplays.vi" Type="VI" URL="../GetDisplays.vi"/>
+	<Item Name="GetDisplayUsableBounds.vi" Type="VI" URL="../GetDisplayUsableBounds.vi"/>
+	<Item Name="GetGrabbedWindow.vi" Type="VI" URL="../GetGrabbedWindow.vi"/>
+	<Item Name="GetNaturalDisplayOrientation.vi" Type="VI" URL="../GetNaturalDisplayOrientation.vi"/>
+	<Item Name="GetNumVideoDrivers.vi" Type="VI" URL="../GetNumVideoDrivers.vi"/>
+	<Item Name="GetPrimaryDisplay.vi" Type="VI" URL="../GetPrimaryDisplay.vi"/>
 	<Item Name="GetSystemTheme.vi" Type="VI" URL="../GetSystemTheme.vi"/>
+	<Item Name="GetVideoDriver.vi" Type="VI" URL="../GetVideoDriver.vi"/>
 	<Item Name="GetWindowAspectRatio.vi" Type="VI" URL="../GetWindowAspectRatio.vi"/>
 	<Item Name="GetWindowBordersSize.vi" Type="VI" URL="../GetWindowBordersSize.vi"/>
 	<Item Name="GetWindowDisplayScale.vi" Type="VI" URL="../GetWindowDisplayScale.vi"/>
 	<Item Name="GetWindowFlags.vi" Type="VI" URL="../GetWindowFlags.vi"/>
 	<Item Name="GetWindowFromID.vi" Type="VI" URL="../GetWindowFromID.vi"/>
 	<Item Name="GetWindowFullscreenMode.vi" Type="VI" URL="../GetWindowFullscreenMode.vi"/>
+	<Item Name="GetWindowICCProfile.vi" Type="VI" URL="../GetWindowICCProfile.vi"/>
 	<Item Name="GetWindowID.vi" Type="VI" URL="../GetWindowID.vi"/>
+	<Item Name="GetWindowKeyboardGrab.vi" Type="VI" URL="../GetWindowKeyboardGrab.vi"/>
 	<Item Name="GetWindowMaximumSize.vi" Type="VI" URL="../GetWindowMaximumSize.vi"/>
+	<Item Name="GetWindowMouseGrab.vi" Type="VI" URL="../GetWindowMouseGrab.vi"/>
 	<Item Name="GetWindowOpacity.vi" Type="VI" URL="../GetWindowOpacity.vi"/>
 	<Item Name="GetWindowParent.vi" Type="VI" URL="../GetWindowParent.vi"/>
 	<Item Name="GetWindowPixelDensity.vi" Type="VI" URL="../GetWindowPixelDensity.vi"/>
 	<Item Name="GetWindowPixelFormat.vi" Type="VI" URL="../GetWindowPixelFormat.vi"/>
 	<Item Name="GetWindowPosition.vi" Type="VI" URL="../GetWindowPosition.vi"/>
+	<Item Name="GetWindowProperties.vi" Type="VI" URL="../GetWindowProperties.vi"/>
 	<Item Name="ScreenSaverEnabled.vi" Type="VI" URL="../ScreenSaverEnabled.vi"/>
 	<Item Name="SetWindowSize.vi" Type="VI" URL="../SetWindowSize.vi"/>
 </Library>

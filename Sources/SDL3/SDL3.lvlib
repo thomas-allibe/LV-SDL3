@@ -11,6 +11,7 @@
 </Property>
 	<Item Name="Additional Functionality" Type="Folder">
 		<Item Name="Power.lvlib" Type="Library" URL="../Power/Power.lvlib"/>
+		<Item Name="Stdinc.lvlib" Type="Library" URL="../Stdinc/Stdinc.lvlib"/>
 	</Item>
 	<Item Name="Audio" Type="Folder">
 		<Item Name="Audio.lvlib" Type="Library" URL="../Audio/Audio.lvlib"/>
