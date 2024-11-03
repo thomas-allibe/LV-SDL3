@@ -19,6 +19,7 @@
 		<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
 		<Item Name="Hints.lvlib" Type="Library" URL="../Hints/Hints.lvlib"/>
 		<Item Name="Init.lvlib" Type="Library" URL="../Init/Init.lvlib"/>
+		<Item Name="Properties.lvlib" Type="Library" URL="../Properties/Properties.lvlib"/>
 	</Item>
 	<Item Name="Force Feedback" Type="Folder"/>
 	<Item Name="GPU" Type="Folder"/>

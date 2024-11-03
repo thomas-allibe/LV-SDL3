@@ -28,6 +28,8 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 	<Item Name="DisableScreenSaver.vi" Type="VI" URL="../DisableScreenSaver.vi"/>
 	<Item Name="EnableScreenSaver.vi" Type="VI" URL="../EnableScreenSaver.vi"/>
 	<Item Name="FlashWindow.vi" Type="VI" URL="../FlashWindow.vi"/>
+	<Item Name="GetDisplayBounds.vi" Type="VI" URL="../GetDisplayBounds.vi"/>
+	<Item Name="GetDisplayProperties.vi" Type="VI" URL="../GetDisplayProperties.vi"/>
 	<Item Name="GetSystemTheme.vi" Type="VI" URL="../GetSystemTheme.vi"/>
 	<Item Name="GetWindowAspectRatio.vi" Type="VI" URL="../GetWindowAspectRatio.vi"/>
 	<Item Name="GetWindowBordersSize.vi" Type="VI" URL="../GetWindowBordersSize.vi"/>
@@ -35,7 +37,13 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 	<Item Name="GetWindowFlags.vi" Type="VI" URL="../GetWindowFlags.vi"/>
 	<Item Name="GetWindowFromID.vi" Type="VI" URL="../GetWindowFromID.vi"/>
 	<Item Name="GetWindowFullscreenMode.vi" Type="VI" URL="../GetWindowFullscreenMode.vi"/>
+	<Item Name="GetWindowID.vi" Type="VI" URL="../GetWindowID.vi"/>
+	<Item Name="GetWindowMaximumSize.vi" Type="VI" URL="../GetWindowMaximumSize.vi"/>
+	<Item Name="GetWindowOpacity.vi" Type="VI" URL="../GetWindowOpacity.vi"/>
 	<Item Name="GetWindowParent.vi" Type="VI" URL="../GetWindowParent.vi"/>
+	<Item Name="GetWindowPixelDensity.vi" Type="VI" URL="../GetWindowPixelDensity.vi"/>
+	<Item Name="GetWindowPixelFormat.vi" Type="VI" URL="../GetWindowPixelFormat.vi"/>
+	<Item Name="GetWindowPosition.vi" Type="VI" URL="../GetWindowPosition.vi"/>
 	<Item Name="ScreenSaverEnabled.vi" Type="VI" URL="../ScreenSaverEnabled.vi"/>
 	<Item Name="SetWindowSize.vi" Type="VI" URL="../SetWindowSize.vi"/>
 </Library>
