@@ -82,9 +82,14 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 		<Item Name="RestoreWindow.vi" Type="VI" URL="../RestoreWindow.vi"/>
 		<Item Name="SetWindowAlwaysOnTop.vi" Type="VI" URL="../SetWindowAlwaysOnTop.vi"/>
 		<Item Name="SetWindowAspectRatio.vi" Type="VI" URL="../SetWindowAspectRatio.vi"/>
+		<Item Name="SetWindowBordered.vi" Type="VI" URL="../SetWindowBordered.vi"/>
+		<Item Name="SetWindowFocusable.vi" Type="VI" URL="../SetWindowFocusable.vi"/>
+		<Item Name="SetWindowFullscreen.vi" Type="VI" URL="../SetWindowFullscreen.vi"/>
+		<Item Name="SetWindowHitTest.vi" Type="VI" URL="../SetWindowHitTest.vi"/>
 		<Item Name="SetWindowSize.vi" Type="VI" URL="../SetWindowSize.vi"/>
 	</Item>
 	<Item Name="CreatePopupWindow.vi" Type="VI" URL="../CreatePopupWindow.vi"/>
 	<Item Name="CreateWindow.vi" Type="VI" URL="../CreateWindow.vi"/>
 	<Item Name="DestroyWindow.vi" Type="VI" URL="../DestroyWindow.vi"/>
+	<Item Name="SetWindowIcon.vi" Type="VI" URL="../SetWindowIcon.vi"/>
 </Library>

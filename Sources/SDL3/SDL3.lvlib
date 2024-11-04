@@ -10,6 +10,7 @@
 
 </Property>
 	<Item Name="Additional Functionality" Type="Folder">
+		<Item Name="LoadSO.lvlib" Type="Library" URL="../LoadSO/LoadSO.lvlib"/>
 		<Item Name="Power.lvlib" Type="Library" URL="../Power/Power.lvlib"/>
 		<Item Name="Stdinc.lvlib" Type="Library" URL="../Stdinc/Stdinc.lvlib"/>
 	</Item>
