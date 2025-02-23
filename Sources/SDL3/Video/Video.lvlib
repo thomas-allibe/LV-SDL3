@@ -60,6 +60,7 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 		<Item Name="GetWindowID.vi" Type="VI" URL="../GetWindowID.vi"/>
 		<Item Name="GetWindowKeyboardGrab.vi" Type="VI" URL="../GetWindowKeyboardGrab.vi"/>
 		<Item Name="GetWindowMaximumSize.vi" Type="VI" URL="../GetWindowMaximumSize.vi"/>
+		<Item Name="GetWindowMinimumSize.vi" Type="VI" URL="../GetWindowMinimumSize.vi"/>
 		<Item Name="GetWindowMouseGrab.vi" Type="VI" URL="../GetWindowMouseGrab.vi"/>
 		<Item Name="GetWindowMouseRect.vi" Type="VI" URL="../GetWindowMouseRect.vi"/>
 		<Item Name="GetWindowOpacity.vi" Type="VI" URL="../GetWindowOpacity.vi"/>
@@ -86,10 +87,12 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 		<Item Name="SetWindowFocusable.vi" Type="VI" URL="../SetWindowFocusable.vi"/>
 		<Item Name="SetWindowFullscreen.vi" Type="VI" URL="../SetWindowFullscreen.vi"/>
 		<Item Name="SetWindowHitTest.vi" Type="VI" URL="../SetWindowHitTest.vi"/>
+		<Item Name="SetWindowIcon.vi" Type="VI" URL="../SetWindowIcon.vi"/>
+		<Item Name="SetWindowMaximumSize.vi" Type="VI" URL="../SetWindowMaximumSize.vi"/>
+		<Item Name="SetWindowMinimumSize.vi" Type="VI" URL="../SetWindowMinimumSize.vi"/>
 		<Item Name="SetWindowSize.vi" Type="VI" URL="../SetWindowSize.vi"/>
 	</Item>
 	<Item Name="CreatePopupWindow.vi" Type="VI" URL="../CreatePopupWindow.vi"/>
 	<Item Name="CreateWindow.vi" Type="VI" URL="../CreateWindow.vi"/>
 	<Item Name="DestroyWindow.vi" Type="VI" URL="../DestroyWindow.vi"/>
-	<Item Name="SetWindowIcon.vi" Type="VI" URL="../SetWindowIcon.vi"/>
 </Library>
