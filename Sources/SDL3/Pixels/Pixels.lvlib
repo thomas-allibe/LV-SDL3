@@ -16,6 +16,7 @@
 		<Item Name="U32ToPixelFormatEnum.vi" Type="VI" URL="../U32ToPixelFormatEnum.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="FColor--cluster.ctl" Type="VI" URL="../FColor--cluster.ctl"/>
 		<Item Name="PixelFormat--enum.ctl" Type="VI" URL="../PixelFormat--enum.ctl"/>
 	</Item>
 </Library>

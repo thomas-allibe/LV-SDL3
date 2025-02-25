@@ -34,6 +34,7 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 		<Item Name="DisplayID--integer.ctl" Type="VI" URL="../DisplayID--integer.ctl"/>
 		<Item Name="DisplayOrientation--enum.ctl" Type="VI" URL="../DisplayOrientation--enum.ctl"/>
 		<Item Name="FlashOperation--enum.ctl" Type="VI" URL="../FlashOperation--enum.ctl"/>
+		<Item Name="GLAttr--enum.ctl" Type="VI" URL="../GLAttr--enum.ctl"/>
 		<Item Name="SystemTheme--enum.ctl" Type="VI" URL="../SystemTheme--enum.ctl"/>
 		<Item Name="WindowFlags--ring.ctl" Type="VI" URL="../WindowFlags--ring.ctl"/>
 		<Item Name="WindowID--integer.ctl" Type="VI" URL="../WindowID--integer.ctl"/>
@@ -76,6 +77,7 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 		<Item Name="GetWindowSurface.vi" Type="VI" URL="../GetWindowSurface.vi"/>
 		<Item Name="GetWindowSurfaceVSync.vi" Type="VI" URL="../GetWindowSurfaceVSync.vi"/>
 		<Item Name="GetWindowTitle.vi" Type="VI" URL="../GetWindowTitle.vi"/>
+		<Item Name="GL_SetAttribute.vi" Type="VI" URL="../GL_SetAttribute.vi"/>
 		<Item Name="HideWindow.vi" Type="VI" URL="../HideWindow.vi"/>
 		<Item Name="MaximizeWindow.vi" Type="VI" URL="../MaximizeWindow.vi"/>
 		<Item Name="MinimizeWindow.vi" Type="VI" URL="../MinimizeWindow.vi"/>

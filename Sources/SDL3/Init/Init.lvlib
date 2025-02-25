@@ -19,6 +19,7 @@ SDL3 apps are strongly encouraged to call SDL_SetAppMetadata() at startup to fil
 </Property>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="InitFlags--ring.ctl" Type="VI" URL="../InitFlags--ring.ctl"/>
+		<Item Name="MetadataPropertyName--combobox.ctl" Type="VI" URL="../MetadataPropertyName--combobox.ctl"/>
 	</Item>
 	<Item Name="GetAppMetadataProperty.vi" Type="VI" URL="../GetAppMetadataProperty.vi"/>
 	<Item Name="Init.vi" Type="VI" URL="../Init.vi"/>

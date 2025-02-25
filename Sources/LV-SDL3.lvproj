@@ -31,10 +31,12 @@
 			<Item Name="TestScript.vi" Type="VI" URL="../Test/TestScript.vi"/>
 			<Item Name="TestSurface.vi" Type="VI" URL="../Test/TestSurface.vi"/>
 			<Item Name="toto.vi" Type="VI" URL="../Test/toto.vi"/>
+			<Item Name="Workbench.vi" Type="VI" URL="../Test/Workbench.vi"/>
 		</Item>
 		<Item Name="Tools" Type="Folder">
 			<Item Name="CreateCluster.vi" Type="VI" URL="../Tools/CreateCluster.vi"/>
 			<Item Name="CreateEventTypeEnum.vi" Type="VI" URL="../Tools/CreateEventTypeEnum.vi"/>
+			<Item Name="EnumToEnum-GLAttr.vi" Type="VI" URL="../Tools/EnumToEnum-GLAttr.vi"/>
 			<Item Name="EnumToEnumAndLookup.vi" Type="VI" URL="../Tools/EnumToEnumAndLookup.vi"/>
 			<Item Name="FlagToRing-Keycode.vi" Type="VI" URL="../Tools/FlagToRing-Keycode.vi"/>
 			<Item Name="FlagToRing-Keymod.vi" Type="VI" URL="../Tools/FlagToRing-Keymod.vi"/>
