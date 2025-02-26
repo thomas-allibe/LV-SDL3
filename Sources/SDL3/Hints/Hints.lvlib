@@ -17,6 +17,14 @@ In general these hints are just that - they may or may not be supported or appli
 </Property>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="HintName--combobox.ctl" Type="VI" URL="../HintName--combobox.ctl"/>
+		<Item Name="HintPriority--enum.ctl" Type="VI" URL="../HintPriority--enum.ctl"/>
 	</Item>
+	<Item Name="AddHintCallback.vi" Type="VI" URL="../AddHintCallback.vi"/>
+	<Item Name="GetHint.vi" Type="VI" URL="../GetHint.vi"/>
+	<Item Name="GetHintBoolean.vi" Type="VI" URL="../GetHintBoolean.vi"/>
+	<Item Name="RemoveHintCallback.vi" Type="VI" URL="../RemoveHintCallback.vi"/>
+	<Item Name="ResetHint.vi" Type="VI" URL="../ResetHint.vi"/>
+	<Item Name="ResetHints.vi" Type="VI" URL="../ResetHints.vi"/>
 	<Item Name="SetHint.vi" Type="VI" URL="../SetHint.vi"/>
+	<Item Name="SetHintWithPriority.vi" Type="VI" URL="../SetHintWithPriority.vi"/>
 </Library>
