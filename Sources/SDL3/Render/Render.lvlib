@@ -50,6 +50,8 @@ These functions must be called from the main thread. See this bug for details: h
 	<Item Name="RenderPresent.vi" Type="VI" URL="../RenderPresent.vi"/>
 	<Item Name="RenderReadPixels.vi" Type="VI" URL="../RenderReadPixels.vi"/>
 	<Item Name="RenderTexture.vi" Type="VI" URL="../RenderTexture.vi"/>
+	<Item Name="SetRenderDrawBlendMode.vi" Type="VI" URL="../SetRenderDrawBlendMode.vi"/>
 	<Item Name="SetRenderDrawColor.vi" Type="VI" URL="../SetRenderDrawColor.vi"/>
 	<Item Name="SetRenderTarget.vi" Type="VI" URL="../SetRenderTarget.vi"/>
+	<Item Name="SetTextureBlendMode.vi" Type="VI" URL="../SetTextureBlendMode.vi"/>
 </Library>

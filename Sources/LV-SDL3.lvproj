@@ -26,11 +26,12 @@
 			<Item Name="Script_InlineAll.vi" Type="VI" URL="../Scripts/Script_InlineAll.vi"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
+			<Item Name="CircleVertices.vi" Type="VI" URL="../Test/CircleVertices.vi"/>
 			<Item Name="Stress.vi" Type="VI" URL="../SDL3/Init/Stress.vi"/>
 			<Item Name="TestEvent.vi" Type="VI" URL="../Test/TestEvent.vi"/>
 			<Item Name="TestScript.vi" Type="VI" URL="../Test/TestScript.vi"/>
 			<Item Name="TestSurface.vi" Type="VI" URL="../Test/TestSurface.vi"/>
-			<Item Name="toto.vi" Type="VI" URL="../Test/toto.vi"/>
+			<Item Name="UnitCircle.vi" Type="VI" URL="../Test/UnitCircle.vi"/>
 			<Item Name="Workbench.vi" Type="VI" URL="../Test/Workbench.vi"/>
 		</Item>
 		<Item Name="Tools" Type="Folder">
@@ -94,6 +95,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Strlen.vi" Type="VI" URL="../SDL3/Stdinc/Strlen.vi"/>
+			<Item Name="toto.vi" Type="VI" URL="../Test/toto.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HelloWorld" Type="EXE">
