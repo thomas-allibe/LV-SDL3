@@ -32,10 +32,12 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="DisplayID--integer.ctl" Type="VI" URL="../DisplayID--integer.ctl"/>
+		<Item Name="DisplayMode.ctl" Type="VI" URL="../DisplayMode.ctl"/>
 		<Item Name="DisplayOrientation--enum.ctl" Type="VI" URL="../DisplayOrientation--enum.ctl"/>
 		<Item Name="FlashOperation--enum.ctl" Type="VI" URL="../FlashOperation--enum.ctl"/>
 		<Item Name="GLAttr--enum.ctl" Type="VI" URL="../GLAttr--enum.ctl"/>
 		<Item Name="SystemTheme--enum.ctl" Type="VI" URL="../SystemTheme--enum.ctl"/>
+		<Item Name="VSync--ring.ctl" Type="VI" URL="../VSync--ring.ctl"/>
 		<Item Name="WindowFlags--ring.ctl" Type="VI" URL="../WindowFlags--ring.ctl"/>
 		<Item Name="WindowID--integer.ctl" Type="VI" URL="../WindowID--integer.ctl"/>
 		<Item Name="WindowSurfaceVSync--ring.ctl" Type="VI" URL="../WindowSurfaceVSync--ring.ctl"/>
@@ -93,6 +95,14 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 		<Item Name="SetWindowMaximumSize.vi" Type="VI" URL="../SetWindowMaximumSize.vi"/>
 		<Item Name="SetWindowMinimumSize.vi" Type="VI" URL="../SetWindowMinimumSize.vi"/>
 		<Item Name="SetWindowSize.vi" Type="VI" URL="../SetWindowSize.vi"/>
+		<Item Name="SetWindowSurfaceVSync.vi" Type="VI" URL="../SetWindowSurfaceVSync.vi"/>
+		<Item Name="SetWindowTitle.vi" Type="VI" URL="../SetWindowTitle.vi"/>
+		<Item Name="ShowWindow.vi" Type="VI" URL="../ShowWindow.vi"/>
+		<Item Name="ShowWindowSystemMenu.vi" Type="VI" URL="../ShowWindowSystemMenu.vi"/>
+		<Item Name="SyncWindow.vi" Type="VI" URL="../SyncWindow.vi"/>
+		<Item Name="UpdateWindowSurface.vi" Type="VI" URL="../UpdateWindowSurface.vi"/>
+		<Item Name="UpdateWindowSurfaceRects.vi" Type="VI" URL="../UpdateWindowSurfaceRects.vi"/>
+		<Item Name="WindowHasSurface.vi" Type="VI" URL="../WindowHasSurface.vi"/>
 	</Item>
 	<Item Name="CreatePopupWindow.vi" Type="VI" URL="../CreatePopupWindow.vi"/>
 	<Item Name="CreateWindow.vi" Type="VI" URL="../CreateWindow.vi"/>
