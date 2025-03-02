@@ -34,6 +34,15 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 		<Item Name="GetNaturalDisplayOrientation.vi" Type="VI" URL="../GetNaturalDisplayOrientation.vi"/>
 		<Item Name="GetPrimaryDisplay.vi" Type="VI" URL="../GetPrimaryDisplay.vi"/>
 	</Item>
+	<Item Name="Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Dereference-DisplayMode.vi" Type="VI" URL="../Dereference-DisplayMode.vi"/>
+		<Item Name="DisplayMode-Internal-Win32--cluster.ctl" Type="VI" URL="../DisplayMode-Internal-Win32--cluster.ctl"/>
+		<Item Name="DisplayMode-Internal-Win64--cluster.ctl" Type="VI" URL="../DisplayMode-Internal-Win64--cluster.ctl"/>
+		<Item Name="GetDisplayModeByTargetBitness.vim" Type="VI" URL="../GetDisplayModeByTargetBitness.vim"/>
+		<Item Name="PrivateDisplayModeToPublic.vim" Type="VI" URL="../PrivateDisplayModeToPublic.vim"/>
+		<Item Name="PublicDisplayModeToPrivate.vim" Type="VI" URL="../PublicDisplayModeToPrivate.vim"/>
+	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="DisplayID--integer.ctl" Type="VI" URL="../DisplayID--integer.ctl"/>
 		<Item Name="DisplayMode--cluster.ctl" Type="VI" URL="../DisplayMode--cluster.ctl"/>
@@ -94,6 +103,7 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 		<Item Name="SetWindowBordered.vi" Type="VI" URL="../SetWindowBordered.vi"/>
 		<Item Name="SetWindowFocusable.vi" Type="VI" URL="../SetWindowFocusable.vi"/>
 		<Item Name="SetWindowFullscreen.vi" Type="VI" URL="../SetWindowFullscreen.vi"/>
+		<Item Name="SetWindowFullscreenMode.vi" Type="VI" URL="../SetWindowFullscreenMode.vi"/>
 		<Item Name="SetWindowHitTest.vi" Type="VI" URL="../SetWindowHitTest.vi"/>
 		<Item Name="SetWindowIcon.vi" Type="VI" URL="../SetWindowIcon.vi"/>
 		<Item Name="SetWindowKeyboardGrab.vi" Type="VI" URL="../SetWindowKeyboardGrab.vi"/>

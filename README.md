@@ -33,9 +33,6 @@ And anyway, LabVIEW's error handling is enough, no need to generate errors throu
 ### Video.lvlib
 
 - SDL_CreateWindowWithProperties
-- SDL_GetClosestFullscreenDisplayMode
-- SDL_GetFullscreenDisplayModes
-- SDL_SetWindowFullscreenMode
 
 
 - SDL_EGL_GetCurrentConfig
