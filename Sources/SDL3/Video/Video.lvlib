@@ -16,8 +16,11 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 
 </Property>
 	<Item Name="Display Utilities" Type="Folder">
+		<Item Name="GetClosestFullscreenDisplayMode.vi" Type="VI" URL="../GetClosestFullscreenDisplayMode.vi"/>
+		<Item Name="GetCurrentDisplayMode.vi" Type="VI" URL="../GetCurrentDisplayMode.vi"/>
 		<Item Name="GetCurrentDisplayOrientation.vi" Type="VI" URL="../GetCurrentDisplayOrientation.vi"/>
 		<Item Name="GetCurrentVideoDriver.vi" Type="VI" URL="../GetCurrentVideoDriver.vi"/>
+		<Item Name="GetDesktopDisplayMode.vi" Type="VI" URL="../GetDesktopDisplayMode.vi"/>
 		<Item Name="GetDisplayBounds.vi" Type="VI" URL="../GetDisplayBounds.vi"/>
 		<Item Name="GetDisplayContentScale.vi" Type="VI" URL="../GetDisplayContentScale.vi"/>
 		<Item Name="GetDisplayForPoint.vi" Type="VI" URL="../GetDisplayForPoint.vi"/>
@@ -27,12 +30,13 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 		<Item Name="GetDisplayProperties.vi" Type="VI" URL="../GetDisplayProperties.vi"/>
 		<Item Name="GetDisplays.vi" Type="VI" URL="../GetDisplays.vi"/>
 		<Item Name="GetDisplayUsableBounds.vi" Type="VI" URL="../GetDisplayUsableBounds.vi"/>
+		<Item Name="GetFullscreenDisplayModes.vi" Type="VI" URL="../GetFullscreenDisplayModes.vi"/>
 		<Item Name="GetNaturalDisplayOrientation.vi" Type="VI" URL="../GetNaturalDisplayOrientation.vi"/>
 		<Item Name="GetPrimaryDisplay.vi" Type="VI" URL="../GetPrimaryDisplay.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="DisplayID--integer.ctl" Type="VI" URL="../DisplayID--integer.ctl"/>
-		<Item Name="DisplayMode.ctl" Type="VI" URL="../DisplayMode.ctl"/>
+		<Item Name="DisplayMode--cluster.ctl" Type="VI" URL="../DisplayMode--cluster.ctl"/>
 		<Item Name="DisplayOrientation--enum.ctl" Type="VI" URL="../DisplayOrientation--enum.ctl"/>
 		<Item Name="FlashOperation--enum.ctl" Type="VI" URL="../FlashOperation--enum.ctl"/>
 		<Item Name="GLAttr--enum.ctl" Type="VI" URL="../GLAttr--enum.ctl"/>
@@ -92,6 +96,7 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 		<Item Name="SetWindowFullscreen.vi" Type="VI" URL="../SetWindowFullscreen.vi"/>
 		<Item Name="SetWindowHitTest.vi" Type="VI" URL="../SetWindowHitTest.vi"/>
 		<Item Name="SetWindowIcon.vi" Type="VI" URL="../SetWindowIcon.vi"/>
+		<Item Name="SetWindowKeyboardGrab.vi" Type="VI" URL="../SetWindowKeyboardGrab.vi"/>
 		<Item Name="SetWindowMaximumSize.vi" Type="VI" URL="../SetWindowMaximumSize.vi"/>
 		<Item Name="SetWindowMinimumSize.vi" Type="VI" URL="../SetWindowMinimumSize.vi"/>
 		<Item Name="SetWindowSize.vi" Type="VI" URL="../SetWindowSize.vi"/>

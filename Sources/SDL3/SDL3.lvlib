@@ -48,5 +48,7 @@
 		<Item Name="Surface.lvlib" Type="Library" URL="../Surface/Surface.lvlib"/>
 		<Item Name="Video.lvlib" Type="Library" URL="../Video/Video.lvlib"/>
 	</Item>
-	<Item Name="LV-Utilities.lvlib" Type="Library" URL="../LV-Utilities/LV-Utilities.lvlib"/>
+	<Item Name="LV-Utilities.lvlib" Type="Library" URL="../LV-Utilities/LV-Utilities.lvlib">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>

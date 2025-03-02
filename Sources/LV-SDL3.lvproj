@@ -95,7 +95,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Strlen.vi" Type="VI" URL="../SDL3/Stdinc/Strlen.vi"/>
 			<Item Name="toto.vi" Type="VI" URL="../Test/toto.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">

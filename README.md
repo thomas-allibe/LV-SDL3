@@ -34,8 +34,6 @@ And anyway, LabVIEW's error handling is enough, no need to generate errors throu
 
 - SDL_CreateWindowWithProperties
 - SDL_GetClosestFullscreenDisplayMode
-- SDL_GetCurrentDisplayMode
-- SDL_GetDesktopDisplayMode
 - SDL_GetFullscreenDisplayModes
 - SDL_SetWindowFullscreenMode
 
