@@ -43,6 +43,7 @@
 			<Item Name="FlagToRing-Keymod.vi" Type="VI" URL="../Tools/FlagToRing-Keymod.vi"/>
 			<Item Name="FlagToRing-Window.vi" Type="VI" URL="../Tools/FlagToRing-Window.vi"/>
 		</Item>
+		<Item Name="CreateWindowPropertyNamesComboBox.vi" Type="VI" URL="../Tools/CreateWindowPropertyNamesComboBox.vi"/>
 		<Item Name="SDL3.lvlib" Type="Library" URL="../SDL3/SDL3.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

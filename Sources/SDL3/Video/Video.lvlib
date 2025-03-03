@@ -53,6 +53,7 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 		<Item Name="VSync--ring.ctl" Type="VI" URL="../VSync--ring.ctl"/>
 		<Item Name="WindowFlags--ring.ctl" Type="VI" URL="../WindowFlags--ring.ctl"/>
 		<Item Name="WindowID--integer.ctl" Type="VI" URL="../WindowID--integer.ctl"/>
+		<Item Name="WindowPropertyName--combobox.ctl" Type="VI" URL="../WindowPropertyName--combobox.ctl"/>
 		<Item Name="WindowSurfaceVSync--ring.ctl" Type="VI" URL="../WindowSurfaceVSync--ring.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
@@ -64,6 +65,7 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 		<Item Name="ScreenSaverEnabled.vi" Type="VI" URL="../ScreenSaverEnabled.vi"/>
 	</Item>
 	<Item Name="Window Utilities" Type="Folder">
+		<Item Name="DestroyWindowSurface.vi" Type="VI" URL="../DestroyWindowSurface.vi"/>
 		<Item Name="FlashWindow.vi" Type="VI" URL="../FlashWindow.vi"/>
 		<Item Name="GetGrabbedWindow.vi" Type="VI" URL="../GetGrabbedWindow.vi"/>
 		<Item Name="GetWindowAspectRatio.vi" Type="VI" URL="../GetWindowAspectRatio.vi"/>
@@ -109,6 +111,14 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 		<Item Name="SetWindowKeyboardGrab.vi" Type="VI" URL="../SetWindowKeyboardGrab.vi"/>
 		<Item Name="SetWindowMaximumSize.vi" Type="VI" URL="../SetWindowMaximumSize.vi"/>
 		<Item Name="SetWindowMinimumSize.vi" Type="VI" URL="../SetWindowMinimumSize.vi"/>
+		<Item Name="SetWindowModal.vi" Type="VI" URL="../SetWindowModal.vi"/>
+		<Item Name="SetWindowMouseGrab.vi" Type="VI" URL="../SetWindowMouseGrab.vi"/>
+		<Item Name="SetWindowMouseRect.vi" Type="VI" URL="../SetWindowMouseRect.vi"/>
+		<Item Name="SetWindowOpacity.vi" Type="VI" URL="../SetWindowOpacity.vi"/>
+		<Item Name="SetWindowParent.vi" Type="VI" URL="../SetWindowParent.vi"/>
+		<Item Name="SetWindowPosition.vi" Type="VI" URL="../SetWindowPosition.vi"/>
+		<Item Name="SetWindowResizable.vi" Type="VI" URL="../SetWindowResizable.vi"/>
+		<Item Name="SetWindowShape.vi" Type="VI" URL="../SetWindowShape.vi"/>
 		<Item Name="SetWindowSize.vi" Type="VI" URL="../SetWindowSize.vi"/>
 		<Item Name="SetWindowSurfaceVSync.vi" Type="VI" URL="../SetWindowSurfaceVSync.vi"/>
 		<Item Name="SetWindowTitle.vi" Type="VI" URL="../SetWindowTitle.vi"/>
@@ -121,5 +131,6 @@ The video subsystem covers a lot of functionality, out of necessity, so it is wo
 	</Item>
 	<Item Name="CreatePopupWindow.vi" Type="VI" URL="../CreatePopupWindow.vi"/>
 	<Item Name="CreateWindow.vi" Type="VI" URL="../CreateWindow.vi"/>
+	<Item Name="CreateWindowWithProperties.vi" Type="VI" URL="../CreateWindowWithProperties.vi"/>
 	<Item Name="DestroyWindow.vi" Type="VI" URL="../DestroyWindow.vi"/>
 </Library>

@@ -32,9 +32,6 @@ And anyway, LabVIEW's error handling is enough, no need to generate errors throu
 
 ### Video.lvlib
 
-- SDL_CreateWindowWithProperties
-
-
 - SDL_EGL_GetCurrentConfig
 - SDL_EGL_GetCurrentDisplay
 - SDL_EGL_GetProcAddress
