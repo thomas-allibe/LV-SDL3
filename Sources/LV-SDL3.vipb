@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-10-06 16:04:22" Modified_Date="2025-02-27 21:32:24" Creator="Thomas" Comments="" ID="0c1dee418bed10686c746d6174c3f126">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-10-06 16:04:22" Modified_Date="2025-03-03 23:36:07" Creator="Thomas" Comments="" ID="160e0b993cfa808e6dec9d062f31e00a">
   <Library_General_Settings>
     <Package_File_Name>Saukko_lib_LV_SDL3</Package_File_Name>
     <Library_Version>1.0.0.2</Library_Version>
@@ -113,6 +113,15 @@
       </Namespace_Overrides>
       <Exclusions>
         <Path>Sources/LV-SDL3.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Sources/Test</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Sources/Tools</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Sources/Scripts</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
@@ -245,7 +254,7 @@
         <Path>SDL3\Error</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>79FD48E86D613D2E1AF87B889A468085</GUID>
+      <GUID>6D6BD77437AF48732221D65B557ACDC0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -294,7 +303,7 @@
         <Path>SDL3\Init\Quit.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AF55B4E7FE01A1488B52A5317173AE5D</GUID>
+      <GUID>5C117A91F82B82D642851A915A61D250</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -427,7 +436,7 @@
         <Path>SDL3\Hints\RemoveHintCallback.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F4C99136DE1F3ACFBE32FF42CC76BD6A</GUID>
+      <GUID>E3D3703C9593FA95B22B4AAAF64127DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -532,7 +541,7 @@
         <Path>SDL3\Error\OutOfMemory-AnyThread.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A64EF3891837F7EB8C5C9BAD7626A2F5</GUID>
+      <GUID>32EB321738BD0F2862FD05C2BFEF50F6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

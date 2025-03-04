@@ -14,6 +14,27 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="DevScripts" Type="Folder">
+			<Item Name="DevScripts_CreateCluster.vi" Type="VI" URL="../DevScripts/DevScripts_CreateCluster.vi"/>
+			<Item Name="DevScripts_CreateEventTypeEnum.vi" Type="VI" URL="../DevScripts/DevScripts_CreateEventTypeEnum.vi"/>
+			<Item Name="DevScripts_CreateWindowPropertyNamesComboBox.vi" Type="VI" URL="../DevScripts/DevScripts_CreateWindowPropertyNamesComboBox.vi"/>
+			<Item Name="DevScripts_DuplicateCDS.vi" Type="VI" URL="../DevScripts/DevScripts_DuplicateCDS.vi"/>
+			<Item Name="DevScripts_EnumToEnum-GLAttr.vi" Type="VI" URL="../DevScripts/DevScripts_EnumToEnum-GLAttr.vi"/>
+			<Item Name="DevScripts_EnumToEnumAndLookup.vi" Type="VI" URL="../DevScripts/DevScripts_EnumToEnumAndLookup.vi"/>
+			<Item Name="DevScripts_FlagToRing-Keycode.vi" Type="VI" URL="../DevScripts/DevScripts_FlagToRing-Keycode.vi"/>
+			<Item Name="DevScripts_FlagToRing-Keymod.vi" Type="VI" URL="../DevScripts/DevScripts_FlagToRing-Keymod.vi"/>
+			<Item Name="DevScripts_FlagToRing-Window.vi" Type="VI" URL="../DevScripts/DevScripts_FlagToRing-Window.vi"/>
+			<Item Name="DevScripts_InlineAll.vi" Type="VI" URL="../DevScripts/DevScripts_InlineAll.vi"/>
+		</Item>
+		<Item Name="DevTests" Type="Folder">
+			<Item Name="DevTests_CircleVertices.vi" Type="VI" URL="../DevTests/DevTests_CircleVertices.vi"/>
+			<Item Name="DevTests_Stress.vi" Type="VI" URL="../DevTests/DevTests_Stress.vi"/>
+			<Item Name="DevTests_TestEvent.vi" Type="VI" URL="../DevTests/DevTests_TestEvent.vi"/>
+			<Item Name="DevTests_TestScript.vi" Type="VI" URL="../DevTests/DevTests_TestScript.vi"/>
+			<Item Name="DevTests_TestSurface.vi" Type="VI" URL="../DevTests/DevTests_TestSurface.vi"/>
+			<Item Name="DevTests_UnitCircle.vi" Type="VI" URL="../DevTests/DevTests_UnitCircle.vi"/>
+			<Item Name="DevTests_Workbench.vi" Type="VI" URL="../DevTests/DevTests_Workbench.vi"/>
+		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Events.vi" Type="VI" URL="../Examples/Events.vi"/>
 			<Item Name="HelloWorld.vi" Type="VI" URL="../Examples/HelloWorld.vi"/>
@@ -21,29 +42,6 @@
 		<Item Name="Lib" Type="Folder">
 			<Item Name="SDL3-32.dll" Type="Document" URL="../../Lib/SDL3-32.dll"/>
 		</Item>
-		<Item Name="Scripts" Type="Folder">
-			<Item Name="Script_DuplicateCDS.vi" Type="VI" URL="../Scripts/Script_DuplicateCDS.vi"/>
-			<Item Name="Script_InlineAll.vi" Type="VI" URL="../Scripts/Script_InlineAll.vi"/>
-		</Item>
-		<Item Name="Test" Type="Folder">
-			<Item Name="CircleVertices.vi" Type="VI" URL="../Test/CircleVertices.vi"/>
-			<Item Name="Stress.vi" Type="VI" URL="../SDL3/Init/Stress.vi"/>
-			<Item Name="TestEvent.vi" Type="VI" URL="../Test/TestEvent.vi"/>
-			<Item Name="TestScript.vi" Type="VI" URL="../Test/TestScript.vi"/>
-			<Item Name="TestSurface.vi" Type="VI" URL="../Test/TestSurface.vi"/>
-			<Item Name="UnitCircle.vi" Type="VI" URL="../Test/UnitCircle.vi"/>
-			<Item Name="Workbench.vi" Type="VI" URL="../Test/Workbench.vi"/>
-		</Item>
-		<Item Name="Tools" Type="Folder">
-			<Item Name="CreateCluster.vi" Type="VI" URL="../Tools/CreateCluster.vi"/>
-			<Item Name="CreateEventTypeEnum.vi" Type="VI" URL="../Tools/CreateEventTypeEnum.vi"/>
-			<Item Name="EnumToEnum-GLAttr.vi" Type="VI" URL="../Tools/EnumToEnum-GLAttr.vi"/>
-			<Item Name="EnumToEnumAndLookup.vi" Type="VI" URL="../Tools/EnumToEnumAndLookup.vi"/>
-			<Item Name="FlagToRing-Keycode.vi" Type="VI" URL="../Tools/FlagToRing-Keycode.vi"/>
-			<Item Name="FlagToRing-Keymod.vi" Type="VI" URL="../Tools/FlagToRing-Keymod.vi"/>
-			<Item Name="FlagToRing-Window.vi" Type="VI" URL="../Tools/FlagToRing-Window.vi"/>
-		</Item>
-		<Item Name="CreateWindowPropertyNamesComboBox.vi" Type="VI" URL="../Tools/CreateWindowPropertyNamesComboBox.vi"/>
 		<Item Name="SDL3.lvlib" Type="Library" URL="../SDL3/SDL3.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -96,7 +94,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="toto.vi" Type="VI" URL="../Test/toto.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HelloWorld" Type="EXE">
