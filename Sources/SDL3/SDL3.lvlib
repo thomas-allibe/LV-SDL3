@@ -23,6 +23,9 @@
 		<Item Name="Init.lvlib" Type="Library" URL="../Init/Init.lvlib"/>
 		<Item Name="Properties.lvlib" Type="Library" URL="../Properties/Properties.lvlib"/>
 	</Item>
+	<Item Name="Extensions" Type="Folder">
+		<Item Name="TTF.lvlib" Type="Library" URL="../TTF/TTF.lvlib"/>
+	</Item>
 	<Item Name="Force Feedback" Type="Folder"/>
 	<Item Name="GPU" Type="Folder"/>
 	<Item Name="Input Events" Type="Folder">

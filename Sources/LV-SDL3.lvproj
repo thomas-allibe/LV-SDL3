@@ -28,6 +28,7 @@
 		</Item>
 		<Item Name="DevTests" Type="Folder">
 			<Item Name="DevTests_CircleVertices.vi" Type="VI" URL="../DevTests/DevTests_CircleVertices.vi"/>
+			<Item Name="DevTests_ExeTTF.vi" Type="VI" URL="../DevTests/DevTests_ExeTTF.vi"/>
 			<Item Name="DevTests_Stress.vi" Type="VI" URL="../DevTests/DevTests_Stress.vi"/>
 			<Item Name="DevTests_TestEvent.vi" Type="VI" URL="../DevTests/DevTests_TestEvent.vi"/>
 			<Item Name="DevTests_TestScript.vi" Type="VI" URL="../DevTests/DevTests_TestScript.vi"/>
@@ -42,6 +43,10 @@
 		<Item Name="Lib" Type="Folder">
 			<Item Name="SDL3-32.dll" Type="Document" URL="../../Lib/SDL3-32.dll"/>
 		</Item>
+		<Item Name="VIPM" Type="Folder">
+			<Item Name="Post-Install.vi" Type="VI" URL="../VIPM/Post-Install.vi"/>
+		</Item>
+		<Item Name="Scripts.lvlib" Type="Library" URL="../CustomActions/Scripts.lvlib"/>
 		<Item Name="SDL3.lvlib" Type="Library" URL="../SDL3/SDL3.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -94,8 +99,55 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="SDL3.dll" Type="Document" URL="../../Lib/Win32/SDL3.dll"/>
+			<Item Name="SDL3.dll" Type="Document" URL="../../Lib/Win32/SDL3/SDL3.dll"/>
+			<Item Name="SDL3_ttf.dll" Type="Document" URL="../../Lib/Win32/SDL3_ttf/SDL3_ttf.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="ExeTTF" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{5EDCE2B1-F242-429C-8AEF-D6B5240DC505}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{B2FBED95-4889-4003-99FF-3CE7DA51622C}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F3922A8A-38E5-4D96-8139-388A62C96943}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ExeTTF</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/ExeTTF</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{77C6A8D6-24DE-4900-B4F7-5217F7F0D965}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">ExeTTF.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/ExeTTF/ExeTTF.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/ExeTTF/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1EC1394B-7166-4F4B-BEAF-9D7512F1E0F2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/HelloWorld.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DevTests/DevTests_ExeTTF.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Mediane Systeme</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">HelloWorld</Property>
+				<Property Name="TgtF_internalName" Type="Str">HelloWorld</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Mediane Systeme</Property>
+				<Property Name="TgtF_productName" Type="Str">HelloWorld</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{16802138-E2B9-4627-92C5-75E24E4372B0}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ExeTTF.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="HelloWorld" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{58C66C23-9C2F-4045-81B3-602E5F2C5579}</Property>

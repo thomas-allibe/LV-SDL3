@@ -1,0 +1,20 @@
+{
+    "Package Display Name":"Test-VIPM",
+    "Package Name":"saukko_lib_test_vipm-1.0.0.1",
+    "LabVIEW Target Version":"24.3",
+    "VIPM Version":"2024.3.0.2761",
+    "Quiet Mode":false,
+    "Mass Compile On":true,
+    "Files Installed":[
+        "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Saukko\\Test-VIPM\\Post-Install Custom Action.vi",
+        "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Saukko\\Test-VIPM\\Test-VIPM.lvproj",
+        "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Saukko\\Test-VIPM\\Test-VIPM\\HelloWorld.vi",
+        "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Saukko\\Test-VIPM\\Test-VIPM\\Test-VIPM.lvlib",
+        "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\menus\\Categories\\_functions_saukko_lib_test_vipm_1.mnu",
+        "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\menus\\Categories\\functions_Saukko_lib_Test_VIPM.mnu"
+    ],
+    "Folders Created":[
+        "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Saukko\\Test-VIPM",
+        "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Saukko\\Test-VIPM\\Test-VIPM"
+    ]
+}
