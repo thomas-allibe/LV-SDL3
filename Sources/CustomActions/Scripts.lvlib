@@ -9,13 +9,34 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="LibraryType--enum.ctl" Type="VI" URL="../LibraryType--enum.ctl"/>
+		<Item Name="UI" Type="Folder">
+			<Item Name="Cmds" Type="Folder">
+				<Item Name="UI-Cmd-Init.vi" Type="VI" URL="../UI-Cmd-Init.vi"/>
+				<Item Name="UI-Cmd-Template.vi" Type="VI" URL="../UI-Cmd-Template.vi"/>
+			</Item>
+			<Item Name="TypeDefs" Type="Folder">
+				<Item Name="UI-Cmd--cluster.ctl" Type="VI" URL="../UI-Cmd--cluster.ctl"/>
+				<Item Name="UI-Cmd--enum.ctl" Type="VI" URL="../UI-Cmd--enum.ctl"/>
+				<Item Name="UI-ErrorCheckingLevel--radio.ctl" Type="VI" URL="../UI-ErrorCheckingLevel--radio.ctl"/>
+				<Item Name="UI-Platform--radio.ctl" Type="VI" URL="../UI-Platform--radio.ctl"/>
+				<Item Name="UI-Refs--cluster.ctl" Type="VI" URL="../UI-Refs--cluster.ctl"/>
+				<Item Name="UI-State--cluster.ctl" Type="VI" URL="../UI-State--cluster.ctl"/>
+			</Item>
+			<Item Name="UI-EnqueueCmd.vi" Type="VI" URL="../UI-EnqueueCmd.vi"/>
 		</Item>
+		<Item Name="DetectPlatformType.vi" Type="VI" URL="../DetectPlatformType.vi"/>
 		<Item Name="IsDLLPathSDL.vi" Type="VI" URL="../IsDLLPathSDL.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="GetSDLCallRefs.vi" Type="VI" URL="../GetSDLCallRefs.vi"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="GetSDLCallRefs.vi" Type="VI" URL="../GetSDLCallRefs.vi"/>
+			<Item Name="ListVILibraryCalls.vi" Type="VI" URL="../ListVILibraryCalls.vi"/>
+			<Item Name="SetLibrarySDLPathIfSDL.vi" Type="VI" URL="../SetLibrarySDLPathIfSDL.vi"/>
+		</Item>
+		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="PlatformType--enum.ctl" Type="VI" URL="../PlatformType--enum.ctl"/>
+		</Item>
+		<Item Name="UI.vi" Type="VI" URL="../UI.vi"/>
 	</Item>
 </Library>
