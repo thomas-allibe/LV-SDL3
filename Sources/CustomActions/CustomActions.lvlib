@@ -11,7 +11,9 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="UI" Type="Folder">
 			<Item Name="Cmds" Type="Folder">
+				<Item Name="UI-Cmd-EditVIs.vi" Type="VI" URL="../UI-Cmd-EditVIs.vi"/>
 				<Item Name="UI-Cmd-Init.vi" Type="VI" URL="../UI-Cmd-Init.vi"/>
+				<Item Name="UI-Cmd-Quit.vi" Type="VI" URL="../UI-Cmd-Quit.vi"/>
 				<Item Name="UI-Cmd-Template.vi" Type="VI" URL="../UI-Cmd-Template.vi"/>
 			</Item>
 			<Item Name="TypeDefs" Type="Folder">
@@ -25,12 +27,12 @@
 			<Item Name="UI-EnqueueCmd.vi" Type="VI" URL="../UI-EnqueueCmd.vi"/>
 		</Item>
 		<Item Name="DetectPlatformType.vi" Type="VI" URL="../DetectPlatformType.vi"/>
-		<Item Name="IsDLLPathSDL.vi" Type="VI" URL="../IsDLLPathSDL.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="GetSDLCallRefs.vi" Type="VI" URL="../GetSDLCallRefs.vi"/>
+			<Item Name="IsDLLPathSDL.vi" Type="VI" URL="../IsDLLPathSDL.vi"/>
 			<Item Name="ListVILibraryCalls.vi" Type="VI" URL="../ListVILibraryCalls.vi"/>
 			<Item Name="SetLibrarySDLPathIfSDL.vi" Type="VI" URL="../SetLibrarySDLPathIfSDL.vi"/>
 		</Item>
@@ -39,4 +41,5 @@
 		</Item>
 		<Item Name="UI.vi" Type="VI" URL="../UI.vi"/>
 	</Item>
+	<Item Name="SemiManualScript.vi" Type="VI" URL="../SemiManualScript.vi"/>
 </Library>
