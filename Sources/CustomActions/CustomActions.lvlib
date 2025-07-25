@@ -27,6 +27,8 @@
 			<Item Name="UI-EnqueueCmd.vi" Type="VI" URL="../UI-EnqueueCmd.vi"/>
 		</Item>
 		<Item Name="DetectPlatformType.vi" Type="VI" URL="../DetectPlatformType.vi"/>
+		<Item Name="ProcessGObjectAsCallLibrary.vi" Type="VI" URL="../ProcessGObjectAsCallLibrary.vi"/>
+		<Item Name="SearchSdlDllInGObjects.vi" Type="VI" URL="../SearchSdlDllInGObjects.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>

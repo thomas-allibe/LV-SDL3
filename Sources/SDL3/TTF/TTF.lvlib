@@ -12,5 +12,6 @@
 
 </Property>
 	<Item Name="Init.vi" Type="VI" URL="../Init.vi"/>
+	<Item Name="OpenFont.vi" Type="VI" URL="../OpenFont.vi"/>
 	<Item Name="Quit.vi" Type="VI" URL="../Quit.vi"/>
 </Library>
