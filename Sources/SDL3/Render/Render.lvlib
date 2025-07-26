@@ -43,6 +43,7 @@ These functions must be called from the main thread. See this bug for details: h
 	</Item>
 	<Item Name="CreateRenderer.vi" Type="VI" URL="../CreateRenderer.vi"/>
 	<Item Name="CreateTexture.vi" Type="VI" URL="../CreateTexture.vi"/>
+	<Item Name="CreateTextureFromSurface.vi" Type="VI" URL="../CreateTextureFromSurface.vi"/>
 	<Item Name="DestroyRenderer.vi" Type="VI" URL="../DestroyRenderer.vi"/>
 	<Item Name="DestroyTexture.vi" Type="VI" URL="../DestroyTexture.vi"/>
 	<Item Name="RenderClear.vi" Type="VI" URL="../RenderClear.vi"/>

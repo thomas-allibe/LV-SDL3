@@ -28,7 +28,7 @@ https://github.com/libsdl-org/SDL_image</Property>
 	</Item>
 	<Item Name="ClearSurface.vi" Type="VI" URL="../ClearSurface.vi"/>
 	<Item Name="CreateSurface.vi" Type="VI" URL="../CreateSurface.vi"/>
-	<Item Name="DestroySurface.vi" Type="VI" URL="../../Render/DestroySurface.vi"/>
+	<Item Name="DestroySurface.vi" Type="VI" URL="../DestroySurface.vi"/>
 	<Item Name="DuplicateSurface.vi" Type="VI" URL="../DuplicateSurface.vi"/>
 	<Item Name="FillSurfaceRect.vi" Type="VI" URL="../FillSurfaceRect.vi"/>
 	<Item Name="FillSurfaceRects.vi" Type="VI" URL="../FillSurfaceRects.vi"/>
