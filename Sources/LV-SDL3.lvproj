@@ -40,9 +40,6 @@
 			<Item Name="Events.vi" Type="VI" URL="../Examples/Events.vi"/>
 			<Item Name="HelloWorld.vi" Type="VI" URL="../Examples/HelloWorld.vi"/>
 		</Item>
-		<Item Name="Lib" Type="Folder" URL="../../Lib">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="VIPM" Type="Folder">
 			<Item Name="Post-Install.vi" Type="VI" URL="../VIPM/Post-Install.vi"/>
 		</Item>
@@ -104,7 +101,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="SDL3-32.dll" Type="Document" URL="../../Lib/SDL3-32.dll"/>
+			<Item Name="SDL3.dll" Type="Document" URL="../SDL3/Lib/SDL3.dll"/>
+			<Item Name="SDL3_ttf.dll" Type="Document" URL="../SDL3/Lib/SDL3_ttf.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ExeTTF" Type="EXE">
