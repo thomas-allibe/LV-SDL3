@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-10-06 16:04:22" Modified_Date="2025-07-24 23:37:27" Creator="Thomas" Comments="" ID="0dd162bfb3297a244f2dbb4ad1956e4b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-10-06 16:04:22" Modified_Date="2025-10-24 22:20:20" Creator="Thomas" Comments="" ID="80fe9b172740ff65eb2e472ccc19531d">
   <Library_General_Settings>
     <Package_File_Name>Saukko_lib_LV_SDL3</Package_File_Name>
-    <Library_Version>1.0.0.6</Library_Version>
+    <Library_Version>1.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -21,7 +21,7 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI>CustomActions\ApplicationPath.vi</Post-Install_VI>
+      <Post-Install_VI>VIPM\Post-Install.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
@@ -126,6 +126,9 @@
       <Exclusions>
         <Path>.gitignore</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>Sources/CustomActions</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -229,7 +232,7 @@
         <Path>SDL3\Init</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>50950DA34ED1D67CBA6B7B90F8F12566</GUID>
+      <GUID>DDDECA97B68BB436BB771C8DCB2109AB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -264,7 +267,7 @@
         <Path>SDL3\Init\Init.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>68E1689C47E06B98AD02999F12BAC820</GUID>
+      <GUID>F0B501A1A7EC0D12C370ADFA28030C92</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
